@@ -1,0 +1,185 @@
+/* Setting Variables : Font Family */
+/* Setting Variables : Text Color */
+/* Setting Variables : Object Color */
+/* Font Icon : Bootstrap Icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+/* Google Web Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "SpoqaHanSansNeo-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/* Responsive for Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* ############ Common CSS ############ */
+  section:not(.front-slider) {
+    padding: 35px 10px;
+  }
+  [class*=inner] {
+    width: 100%;
+  }
+  /* Header */
+  header {
+    /* Mega Navi */
+  }
+  header .header-inner {
+    padding: 0 10px;
+  }
+  header .header-inner .search {
+    width: 300px;
+  }
+  header .mega-navi .mega-navi-inner {
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+  }
+  header .mega-navi .mega-navi-inner .mega-navi-item {
+    font-size: 14px;
+  }
+  /* Footer */
+  footer {
+    padding: 30px 20px;
+  }
+  footer .footer-inner .lnb-wrap {
+    gap: 40px;
+  }
+  footer .footer-inner .copyright-wrap .sns {
+    width: 200px;
+    text-align: right;
+  }
+  /* Section : Front Slider */
+  .front-slider .front-slider-items .front-slider-item .front-slider-item-wrap {
+    padding: 0 30px;
+    width: 100%;
+    height: 300px;
+  }
+  .front-slider .front-slider-items .front-slider-item .front-slider-item-wrap .desc h1 {
+    font-size: 24px;
+  }
+  .front-slider .front-slider-items .front-slider-item .front-slider-item-wrap .pic img {
+    height: 250px;
+  }
+  /* Section : Category Shortcut */
+  .category-shortcut .category-shortcut-inner .category-shortcut-items .category-shortcut-item {
+    height: auto;
+    padding: 10px 0;
+  }
+  .category-shortcut .category-shortcut-inner .category-shortcut-items .category-shortcut-item span {
+    font-size: 14px;
+  }
+  /* Section : Focus Class */
+  .focus-class-items .slick-dots li {
+    margin: 0;
+    width: 15px;
+    height: 15px;
+    margin-right: -3px;
+  }
+  .focus-class-items .slick-dots li button:before {
+    font-size: 26px;
+  }
+  .focus-class-items .slick-dots li button:hover:before {
+    color: #ED2040;
+  }
+  .focus-class-items .slick-dots li.slick-active button:before {
+    color: #ED2040;
+  }
+  /* Section : Best Class */
+  .best-class .best-class-inner .best-class-content .best-class-wrap {
+    flex-direction: column-reverse;
+  }
+  .best-class .best-class-inner .best-class-content .best-class-wrap .invite-banner {
+    display: none;
+  }
+  .best-class .best-class-inner .best-class-content .best-class-wrap .invite-banner-tablet {
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .best-class .best-class-inner .best-class-content .best-class-wrap .invite-banner-tablet img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  /* Section : Blog */
+  .blog .blog-inner .blog-content .blog-items .blog-item .thum {
+    height: 160px;
+  }
+  /* Section : Slogan */
+  .slogan {
+    padding: 35px !important;
+  }
+  /* Section : Tip & Tech */
+  .tip-tech .tip-tech-inner .tip-tech-content .tip-tech-wrap .tip-tech-items .tip-tech-item .thum {
+    display: none;
+  }
+  /* ############ Take Course & Cart : take-course.html ############ */
+  .take-course .take-course-inner {
+    flex-direction: column;
+  }
+  /* ############ Class Detail : class-detail.html ############ */
+  .class-detail-image .class-detail-image-inner {
+    padding: 0 30px;
+    height: 350px;
+  }
+  .class-detail-image .class-detail-image-inner .heading h1 {
+    font-size: 24px;
+  }
+  .class-detail-image .class-detail-image-inner .heading p {
+    font-size: 16px;
+  }
+  .class-detail-image .class-detail-image-inner .cover-image img {
+    height: 250px;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content {
+    flex-direction: column-reverse;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info {
+    /* Article : Class Introduce  */
+    /* Article : Class Mentor */
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info .class-introduce * img {
+    width: 100%;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info .class-mentor .class-detail-wrap .mentor-profile-summary .mentor-class-button .btn-mentor-profile {
+    padding: 3px 10px;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-sidebar {
+    position: static;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-sidebar .class-detail-sidebar-wrap.group-required-info .overview .class-price {
+    justify-content: flex-end;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-sidebar .class-detail-sidebar-wrap.group-required-info .overview .class-price .sale {
+    margin-right: 30px;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-sidebar .class-detail-sidebar-wrap.group-required-info .overview .class-price .price-current {
+    margin-right: 50px;
+  }
+}

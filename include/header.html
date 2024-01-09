@@ -1,0 +1,142 @@
+<header>
+  <div class="header-inner">
+    <div class="logo-search">
+      <div class="logo">
+        <a href="/index.html"><img src="/images/logo-finemytrip.png" alt=""></a>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="어떤 여행을 찾으시나요?">
+        <img src="/images/bi-search.svg" alt="">
+      </div>
+      <div class="login-register-buttons">
+        <button class="btn-login">로그인</button>
+        <button class="btn-register" onclick="location.href='/html/member-register.html'">회원가입</button>
+      </div>
+      <div class="user-alarm">
+        <span class="cart">
+          <i class="bi bi-cart"></i><em data-count="2"></em>
+        </span>
+        <span class="alarm">
+          <i class="bi bi-bell"></i><em data-count="9"></em>
+        </span>
+        <span class="avatar">
+          <img src="/images/profile-avatar-01.png" alt="">
+        </span>
+      </div>
+    </div>
+    <div class="gnb">
+      <a class="trigger" href="#none"><span>전체 카테고리</span></a>
+      <div class="special-navi">
+        <a href="#none">항공권</a>
+        <a href="#none">호텔·리조트</a>
+        <a href="#none">펜션·풀빌라</a>
+        <a href="#none">투어·티켓</a>
+        <a href="#none">패키지</a>
+      </div>
+    </div>
+  </div>
+  <div class="mega-navi">
+    <div class="search-mobile">
+      <input type="text" placeholder="어떤 여행을 찾으시나요?">
+      <img src="/images/bi-search.svg" alt="">
+    </div>
+    <div class="mega-navi-inner">
+      <div class="mega-navi-item">
+        <b>항공권</b>
+        <div class="mega-navi-item-wrap">
+          <a href="#none">왕복/편도/다구간</a>
+          <a href="#none">항공사 프로모션</a>
+          <a href="#none">슈퍼특가 항공권</a>
+        </div>
+      </div>
+      <div class="mega-navi-item">
+        <b>호텔·리조트</b>
+        <div class="mega-navi-item-wrap">
+          <a href="#none">숙소 찾기</a>
+          <a href="#none">국내 인기 호캉스</a>
+          <a href="#none">동남아 기간한정</a>
+          <a href="#none">일본 최저가</a>
+          <a href="#none">전세계 인기</a>
+        </div>
+      </div>
+      <div class="mega-navi-item">
+        <b>펜션·풀빌라</b>
+        <div class="mega-navi-item-wrap">
+          <a href="#none">감성 숙소</a>
+          <a href="#none">글램핑·카라반</a>
+          <a href="#none">스파·자쿠지</a>
+          <a href="#none">아이와 함께</a>
+          <a href="#none">한옥 스테이</a>
+          <a href="#none">프리미엄 펜션</a>
+        </div>
+      </div>
+      <div class="mega-navi-item">
+        <b>투어·티켓</b>
+        <div class="mega-navi-item-wrap">
+          <a href="#none">스냅촬영</a>
+          <a href="#none">시내투어</a>
+          <a href="#none">미식</a>
+          <a href="#none">여행편의</a>
+          <a href="#none">근교투어</a>
+          <a href="#none">티켓·입장권</a>
+          <a href="#none">체험·클래스</a>
+        </div>
+      </div>
+      <div class="mega-navi-item">
+        <b>패키지</b>
+        <div class="mega-navi-item-wrap">
+          <a href="#none">겨울 베스트</a>
+          <a href="#none">여유롭고 한적하게</a>
+          <a href="#none">한 폭의 그림 같은</a>
+          <a href="#none">근교 여행을 버스로</a>
+          <a href="#none">일행 끼리</a>
+          <a href="#none">하루는 내맘대로</a>
+          <a href="#none">꿈같은 설경</a>
+        </div>
+      </div>
+      <div class="mega-navi-item">
+        <b>여행자 보험</b>
+        <div class="mega-navi-item-wrap">
+          <a href="#none">휴대폰 파손</a>
+          <a href="#none">수하물 지연</a>
+          <a href="#none">상해/질병의료비</a>
+          <a href="#none">코로나 질병 관련</a>
+        </div>
+      </div>
+    </div>
+    <button class="btn-mega-navi-close">&times;</button>
+  </div>
+</header>
+
+<!-- Login Modal -->
+<div class="member-login-overlay">
+  <div class="member-login">
+    <div class="member-account">
+      <h1 class="login-slogan">멋진 나의 여행,<br><em>파인마이트립</em>에서 시작하세요.</h1> 
+    </div>
+    <div class="login-field">
+      <div>
+        <input type="email" placeholder="이메일">
+      </div>
+      <div>
+        <input type="password" placeholder="비밀번호" maxlength="12">
+        <i class="toggle-pw bi bi-eye-slash"></i>
+      </div>
+      <button class="btn-member-primary">로그인</button>
+    </div>
+    <div class="join-member">
+      파인마이트립이 처음이신가요? <a href="/html/member-register.html">간편 회원가입</a>
+    </div>
+    <div class="easy-login">
+      <a href="#none" class="btn-easy-login kakao">카카오로 시작하기</a>
+      <a href="#none" class="btn-easy-login facebook">페이스북으로 시작하기</a>
+      <a href="#none" class="btn-easy-login apple">Apple로 시작하기</a>
+      <span class="or">또는</span>
+      <a href="#none" class="btn-easy-login email">이메일 계정으로 시작하기</a>
+    </div>
+    <p class="login-notice">
+      처음 로그인하면 파인마이트립의 이용약관 및 개인정보처리방침에 동의한 것으로 간주합니다.
+    </p>
+    <button class="btn-modal-close">&times;</button>
+  </div>
+</div>

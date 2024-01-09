@@ -1,0 +1,253 @@
+// Import Local SCSS files
+@import "variables", "fonts", "reset";
+
+/* Responsive for Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* ############ Common CSS ############ */
+  section:not(.front-slider) {
+    padding: 35px 10px;
+  }
+  [class*=inner] {
+    width: 100%;
+  }
+
+  /* Header */
+  header {
+    .header-inner {
+      padding: 0 10px;
+      .search {
+        width: 300px;
+      }
+    }
+     /* Mega Navi */
+     .mega-navi {
+      .mega-navi-inner {
+        width: 100%;
+        padding: 20px;
+        gap: 10px;
+        .mega-navi-item {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  /* Footer */
+  footer {
+    padding: 30px 20px;
+    .footer-inner {
+      .lnb-wrap {
+        gap: 40px;
+      }
+      .copyright-wrap {
+        .sns {
+          width: 200px;
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  /* Section : Front Slider */
+  .front-slider {
+    .front-slider-items {
+      .front-slider-item {
+        .front-slider-item-wrap {
+          padding: 0 30px;
+          width: 100%;
+          height: 300px;
+          .desc {
+            h1 {
+              font-size: 24px;
+            }
+          }
+          .pic {
+            img {
+              height: 250px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Section : Category Shortcut */
+  .category-shortcut {
+    .category-shortcut-inner {
+      .category-shortcut-items {
+        .category-shortcut-item {
+          height: auto;
+          padding: 10px 0;
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  /* Section : Focus Class */
+  .focus-class-items {
+    .slick-dots {
+      li {
+        margin: 0;
+        width: 15px;
+        height: 15px;
+        margin-right: -3px;
+        button {
+          &:before {
+            font-size: 26px;
+          }
+          &:hover:before {
+            color: $crimson;
+          }
+        }
+        &.slick-active button:before {
+          color: $crimson;
+        }
+      }
+    }
+  }
+
+  /* Section : Best Class */
+  .best-class {
+    .best-class-inner {
+      .best-class-content {
+        .best-class-wrap {
+          flex-direction: column-reverse;
+          .invite-banner {
+            display: none;
+          }
+          .invite-banner-tablet {
+            display: block;
+            text-align: center;
+            // background-color: #aae8f3;
+            border-radius: 10px;
+            img {
+              width: 100%;
+              height: 120px;
+              object-fit: cover;
+              border-radius: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Section : Blog */
+  .blog {
+    .blog-inner {
+      .blog-content {
+        .blog-items {
+          .blog-item {
+            .thum {
+              height: 160px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Section : Slogan */
+  .slogan {
+    padding: 35px !important;
+  }
+
+  /* Section : Tip & Tech */
+  .tip-tech {
+    .tip-tech-inner {
+      .tip-tech-content {
+        .tip-tech-wrap {
+          .tip-tech-items {
+            .tip-tech-item {
+              .thum {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* ############ Take Course & Cart : take-course.html ############ */
+
+  .take-course {
+    .take-course-inner {
+      flex-direction: column;
+    }
+  }
+
+  /* ############ Class Detail : class-detail.html ############ */
+
+  .class-detail-image {
+    .class-detail-image-inner {
+      padding: 0 30px;
+      height: 350px;
+      .heading {
+        // transform: scale(0.7);
+        // transform-origin: left;
+        h1 {
+          font-size: 24px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+      .cover-image {
+        img {
+          height: 250px;
+        }
+      }
+    }
+  }
+
+  .class-detail-full {
+    .class-detail-full-inner {
+      .class-detail-full-content {
+        flex-direction: column-reverse;
+        .class-detail-info {
+          /* Article : Class Introduce  */
+          .class-introduce {
+            * img {
+              width: 100%;
+            }
+          }
+          /* Article : Class Mentor */
+          .class-mentor {
+            .class-detail-wrap {
+              .mentor-profile-summary {
+                .mentor-class-button {
+                  .btn-mentor-profile {
+                    padding: 3px 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .class-detail-sidebar {
+          position: static;
+          .class-detail-sidebar-wrap.group-required-info {
+            .overview {
+              .class-price {
+                justify-content: flex-end;
+                .sale {
+                  margin-right: 30px;
+                }
+                .price-current {
+                  margin-right: 50px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}
