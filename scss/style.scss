@@ -252,7 +252,6 @@ header {
 .front-slider {
   .front-slider-items {
     .front-slider-item {
-      background: url('/images/front-slider-bg-01.png') no-repeat center;
       cursor: pointer;
       .front-slider-item-wrap {
         width: 1160px;
@@ -271,11 +270,9 @@ header {
           h1 {
             font-size: 34px;
             margin: 15px 0;
-            color: $white;
           }
           span {
             font-size: 15px;
-            color: $white;
           }
         }
         .pic {
