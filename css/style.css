@@ -285,9 +285,11 @@ header .mega-navi .mega-navi-inner .mega-navi-item .mega-navi-item-wrap a:hover 
 .front-slider .front-slider-items .front-slider-item .front-slider-item-wrap .desc h1 {
   font-size: 34px;
   margin: 15px 0;
+  color: #FFFFFF;
 }
 .front-slider .front-slider-items .front-slider-item .front-slider-item-wrap .desc span {
   font-size: 15px;
+  color: #FFFFFF;
 }
 .front-slider .front-slider-items .front-slider-item .front-slider-item-wrap .pic img {
   height: 350px;
