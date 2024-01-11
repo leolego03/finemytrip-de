@@ -119,12 +119,7 @@ input {
   .best-class .best-class-inner .best-class-content .best-class-wrap .invite-banner-tablet {
     display: block;
     text-align: center;
-    border-radius: 10px;
-  }
-  .best-class .best-class-inner .best-class-content .best-class-wrap .invite-banner-tablet img {
-    width: 100%;
-    height: 120px;
-    object-fit: cover;
+    background-color: #FFFFFF;
     border-radius: 10px;
   }
   /* Section : Blog */

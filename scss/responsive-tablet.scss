@@ -122,14 +122,8 @@
           .invite-banner-tablet {
             display: block;
             text-align: center;
-            // background-color: #aae8f3;
+            background-color: $white;
             border-radius: 10px;
-            img {
-              width: 100%;
-              height: 120px;
-              object-fit: cover;
-              border-radius: 10px;
-            }
           }
         }
       }
