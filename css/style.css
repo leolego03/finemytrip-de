@@ -1160,7 +1160,7 @@ footer .footer-inner .copyright-wrap .sns a:hover .bi {
 /* ############ Class Detail : class-detail.html ############ */
 .class-detail-image {
   padding: 0 !important;
-  background: url("/images/ct-class-detail-main-01.png") no-repeat center center;
+  background: url("/images/ct-product-detail-main-01.png") no-repeat center center;
   background-size: cover;
 }
 .class-detail-image .class-detail-image-inner {
@@ -1173,10 +1173,12 @@ footer .footer-inner .copyright-wrap .sns a:hover .bi {
   font-family: "SpoqaHanSansNeo-Regular";
   font-size: 36px;
   font-weight: bold;
+  color: #FFFFFF;
 }
 .class-detail-image .class-detail-image-inner .heading p {
   font-family: "SpoqaHanSansNeo-Regular";
   font-size: 20px;
+  color: #FFFFFF;
 }
 .class-detail-image .class-detail-image-inner .cover-image img {
   height: 500px;

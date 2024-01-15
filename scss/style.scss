@@ -1236,7 +1236,7 @@ footer {
 /* ############ Class Detail : class-detail.html ############ */
 .class-detail-image {
   padding: 0 !important;
-  background: url('/images/ct-class-detail-main-01.png') no-repeat center center;
+  background: url('/images/ct-product-detail-main-01.png') no-repeat center center;
   background-size: cover;
   .class-detail-image-inner {
     height: 600px;
@@ -1248,10 +1248,12 @@ footer {
         font-family: $secondary-kr;
         font-size: 36px;
         font-weight: bold;
+        color: $white;
       }
       p {
         font-family: $secondary-kr;
         font-size: 20px;
+        color: $white;
       }
     }
     .cover-image {
