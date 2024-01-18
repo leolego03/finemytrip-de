@@ -777,6 +777,7 @@ footer .footer-inner .copyright-wrap .sns a:hover .bi {
   width: 110px;
   margin-right: 5px;
   text-align: center;
+  white-space: nowrap;
 }
 .category-class .category-class-inner .category-class-sort select {
   appearance: none;
