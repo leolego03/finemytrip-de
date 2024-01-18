@@ -93,30 +93,30 @@ input {
   .category-shortcut .category-shortcut-inner .category-shortcut-items .category-shortcut-item span {
     font-size: 14px;
   }
-  /* Section : Focus Class */
-  .focus-class-items .slick-dots li {
+  /* Section : Focus Product */
+  .focus-product-items .slick-dots li {
     margin: 0;
     width: 15px;
     height: 15px;
     margin-right: -3px;
   }
-  .focus-class-items .slick-dots li button:before {
+  .focus-product-items .slick-dots li button:before {
     font-size: 26px;
   }
-  .focus-class-items .slick-dots li button:hover:before {
+  .focus-product-items .slick-dots li button:hover:before {
     color: #ED2040;
   }
-  .focus-class-items .slick-dots li.slick-active button:before {
+  .focus-product-items .slick-dots li.slick-active button:before {
     color: #ED2040;
   }
-  /* Section : Best Class */
-  .best-class .best-class-inner .best-class-content .best-class-wrap {
+  /* Section : Best Product */
+  .best-product .best-product-inner .best-product-content .best-product-wrap {
     flex-direction: column-reverse;
   }
-  .best-class .best-class-inner .best-class-content .best-class-wrap .invite-banner {
+  .best-product .best-product-inner .best-product-content .best-product-wrap .invite-banner {
     display: none;
   }
-  .best-class .best-class-inner .best-class-content .best-class-wrap .invite-banner-tablet {
+  .best-product .best-product-inner .best-product-content .best-product-wrap .invite-banner-tablet {
     display: block;
     text-align: center;
     background-color: #FFFFFF;
@@ -130,51 +130,51 @@ input {
   .slogan {
     padding: 35px !important;
   }
-  /* Section : Tip & Tech */
-  .tip-tech .tip-tech-inner .tip-tech-content .tip-tech-wrap .tip-tech-items .tip-tech-item .thum {
+  /* Section : Trip Blog */
+  .trip-blog .trip-blog-inner .trip-blog-content .trip-blog-wrap .trip-blog-items .trip-blog-item .thum {
     display: none;
   }
-  /* ############ Take Course & Cart : take-course.html ############ */
-  .take-course .take-course-inner {
+  /* ############ Take Product & Cart : take-product.html ############ */
+  .take-product .take-product-inner {
     flex-direction: column;
   }
-  /* ############ Class Detail : class-detail.html ############ */
-  .class-detail-image .class-detail-image-inner {
+  /* ############ Product Detail : product-detail.html ############ */
+  .product-detail-image .product-detail-image-inner {
     padding: 0 30px;
     height: 350px;
   }
-  .class-detail-image .class-detail-image-inner .heading h1 {
+  .product-detail-image .product-detail-image-inner .heading h1 {
     font-size: 24px;
   }
-  .class-detail-image .class-detail-image-inner .heading p {
+  .product-detail-image .product-detail-image-inner .heading p {
     font-size: 16px;
   }
-  .class-detail-image .class-detail-image-inner .cover-image img {
+  .product-detail-image .product-detail-image-inner .cover-image img {
     height: 250px;
   }
-  .class-detail-full .class-detail-full-inner .class-detail-full-content {
+  .product-detail-full .product-detail-full-inner .product-detail-full-content {
     flex-direction: column-reverse;
   }
-  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info {
-    /* Article : Class Introduce  */
-    /* Article : Class Mentor */
+  .product-detail-full .product-detail-full-inner .product-detail-full-content .product-detail-info {
+    /* Article : Product Introduce  */
+    /* Article : Product Mentor */
   }
-  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info .class-introduce * img {
+  .product-detail-full .product-detail-full-inner .product-detail-full-content .product-detail-info .product-introduce * img {
     width: 100%;
   }
-  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info .class-mentor .class-detail-wrap .mentor-profile-summary .mentor-class-button .btn-mentor-profile {
+  .product-detail-full .product-detail-full-inner .product-detail-full-content .product-detail-info .product-mentor .product-detail-wrap .mentor-profile-summary .mentor-product-button .btn-mentor-profile {
     padding: 3px 10px;
   }
-  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-sidebar {
+  .product-detail-full .product-detail-full-inner .product-detail-full-content .product-detail-sidebar {
     position: static;
   }
-  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-sidebar .class-detail-sidebar-wrap.group-required-info .overview .class-price {
+  .product-detail-full .product-detail-full-inner .product-detail-full-content .product-detail-sidebar .product-detail-sidebar-wrap.group-required-info .overview .product-price {
     justify-content: flex-end;
   }
-  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-sidebar .class-detail-sidebar-wrap.group-required-info .overview .class-price .sale {
+  .product-detail-full .product-detail-full-inner .product-detail-full-content .product-detail-sidebar .product-detail-sidebar-wrap.group-required-info .overview .product-price .sale {
     margin-right: 30px;
   }
-  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-sidebar .class-detail-sidebar-wrap.group-required-info .overview .class-price .price-current {
+  .product-detail-full .product-detail-full-inner .product-detail-full-content .product-detail-sidebar .product-detail-sidebar-wrap.group-required-info .overview .product-price .price-current {
     margin-right: 50px;
   }
 }

@@ -119,7 +119,7 @@ $(function(){
     $(this).siblings().removeClass('active');
   });
 
-  /* Take Course & Cart Check All Function */
+  /* Take Product & Cart Check All Function */
   /* $('.cart-item .btn-clear').click(function(){
     $(this).parents('.cart-item').hide();
   });
@@ -145,21 +145,21 @@ $(function(){
     $('.check-status .cart-chk').prop('checked', this.checked)
   });
 
-  /* Class Share Modal */
+  /* Product Share Modal */
   $('.btn-sidebar-badge.share').click(function(){
-    $('.class-share-overlay').fadeIn();
+    $('.product-share-overlay').fadeIn();
     $('body').addClass('active');
   });
-  $('.class-share .btn-modal-close').click(function(){
-    $('.class-share-overlay').fadeOut();
+  $('.product-share .btn-modal-close').click(function(){
+    $('.product-share-overlay').fadeOut();
     $('body').removeClass('active');
   });
   $('.share-link').click(function(){
     $('.copied-link').show();
   });
 
-  /* Class Detail Navigation */
-  $('.class-detail-navigation a').click(function(e){
+  /* Product Detail Navigation */
+  $('.product-detail-navigation a').click(function(e){
     /* Active Style Change */
     $(this).addClass('active').siblings().removeClass('active');
     /* Smooth Scrolling */
@@ -170,27 +170,27 @@ $(function(){
     e.preventDefault();
   });
 
-  /* Class Curriculum */
-  $('.chapter-title').click(function(){
+  /* Product Course */
+  $('.course-title').click(function(){
     $(this).next().slideToggle(200);
     $(this).toggleClass('active');
   });
 
-  /* Class Curriculum : All Show/Hide */
-  $('.btn-curriculum-fold').click(function(){
-    $('.chapter-content').slideUp(200);
+  /* Product Course : All Show/Hide */
+  $('.btn-course-fold').click(function(){
+    $('.course-content').slideUp(200);
     $(this).addClass('selected');
     $(this).siblings('button').removeClass('selected');
-    $('.chapter-title').addClass('active')
+    $('.course-title').addClass('active')
   })
-  $('.btn-curriculum-expand').click(function(){
-    $('.chapter-content').slideDown(200);
+  $('.btn-course-expand').click(function(){
+    $('.course-content').slideDown(200);
     $(this).addClass('selected');
     $(this).siblings('button').removeClass('selected');
-    $('.chapter-title').removeClass('active')
+    $('.course-title').removeClass('active')
   })
 
-  /* Class FAQ */
+  /* Product FAQ */
   $('.faq-title').click(function(){
     // 기본적으로 모두 펼치기
     // $(this).next().stop().slideDown(200);
@@ -217,7 +217,7 @@ $(function(){
     $('.cart-confirm').hide();
   });
 
-  /* Class Zzim */
+  /* Product Zzim */
   $('.zzim').click(function(){
     $(this).children().toggleClass('bi-heart bi-heart-fill');
     $(this).children().css({
@@ -238,7 +238,7 @@ $(function(){
   });
 
   /* Focus Class Slider */
-  $('.focus-class-items').slick({
+  $('.focus-product-items').slick({
     slidesToShow: 4, // 최초에 보이는 개수
     slidesToScroll: 2, // 슬라이드할 때 몇개씩 슬라이드할지 개수
     arrows: true,

@@ -87,8 +87,8 @@
     }
   }
 
-  /* Section : Focus Class */
-  .focus-class-items {
+  /* Section : Focus Product */
+  .focus-product-items {
     .slick-dots {
       li {
         margin: 0;
@@ -110,11 +110,11 @@
     }
   }
 
-  /* Section : Best Class */
-  .best-class {
-    .best-class-inner {
-      .best-class-content {
-        .best-class-wrap {
+  /* Section : Best Product */
+  .best-product {
+    .best-product-inner {
+      .best-product-content {
+        .best-product-wrap {
           flex-direction: column-reverse;
           .invite-banner {
             display: none;
@@ -150,13 +150,13 @@
     padding: 35px !important;
   }
 
-  /* Section : Tip & Tech */
-  .tip-tech {
-    .tip-tech-inner {
-      .tip-tech-content {
-        .tip-tech-wrap {
-          .tip-tech-items {
-            .tip-tech-item {
+  /* Section : Trip Blog */
+  .trip-blog {
+    .trip-blog-inner {
+      .trip-blog-content {
+        .trip-blog-wrap {
+          .trip-blog-items {
+            .trip-blog-item {
               .thum {
                 display: none;
               }
@@ -167,18 +167,18 @@
     }
   }
 
-  /* ############ Take Course & Cart : take-course.html ############ */
+  /* ############ Take Product & Cart : take-product.html ############ */
 
-  .take-course {
-    .take-course-inner {
+  .take-product {
+    .take-product-inner {
       flex-direction: column;
     }
   }
 
-  /* ############ Class Detail : class-detail.html ############ */
+  /* ############ Product Detail : product-detail.html ############ */
 
-  .class-detail-image {
-    .class-detail-image-inner {
+  .product-detail-image {
+    .product-detail-image-inner {
       padding: 0 30px;
       height: 350px;
       .heading {
@@ -199,22 +199,22 @@
     }
   }
 
-  .class-detail-full {
-    .class-detail-full-inner {
-      .class-detail-full-content {
+  .product-detail-full {
+    .product-detail-full-inner {
+      .product-detail-full-content {
         flex-direction: column-reverse;
-        .class-detail-info {
-          /* Article : Class Introduce  */
-          .class-introduce {
+        .product-detail-info {
+          /* Article : Product Introduce  */
+          .product-introduce {
             * img {
               width: 100%;
             }
           }
-          /* Article : Class Mentor */
-          .class-mentor {
-            .class-detail-wrap {
+          /* Article : Product Mentor */
+          .product-mentor {
+            .product-detail-wrap {
               .mentor-profile-summary {
-                .mentor-class-button {
+                .mentor-product-button {
                   .btn-mentor-profile {
                     padding: 3px 10px;
                   }
@@ -223,11 +223,11 @@
             }
           }
         }
-        .class-detail-sidebar {
+        .product-detail-sidebar {
           position: static;
-          .class-detail-sidebar-wrap.group-required-info {
+          .product-detail-sidebar-wrap.group-required-info {
             .overview {
-              .class-price {
+              .product-price {
                 justify-content: flex-end;
                 .sale {
                   margin-right: 30px;
